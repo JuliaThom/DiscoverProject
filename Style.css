@@ -18,12 +18,16 @@ body {
 /* Heading styles */
 h1 {
     color: #b88e1a; /* Gold */
+    -webkit-text-stroke: 1px #363434; /* Für WebKit-basierte Browser */
+    text-stroke: 1px #363434; /* Standard */
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
 }
 
 /* Paragraph styles */
 p {
     color: #ccc; /* light gray Text */
     line-height: 1.6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Button styles */
@@ -31,12 +35,17 @@ p {
     display: inline-block;
     padding: 10px 20px;
     background-color: #b88e1a; /* Darkgreen Button */
-    color: #fff; /* White Text */
+    color: #d8d0d0; /* White Text */
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     text-decoration: none;
-    border: none;
+    border: 2px solid #504e4e;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease; /* Hover-Effect */
+    -webkit-text-stroke: 1px #504e4e; /* Für WebKit-basierte Browser */
+    text-stroke: 1px #504e4e; /* Standard */
 }
 
 /* Button hover styles */
