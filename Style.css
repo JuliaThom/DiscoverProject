@@ -1,0 +1,44 @@
+/* Set the font family for the entire page */
+body {
+    font-family: "Century Gothic", sans-serif;
+    background-color: #f4f4f4; /* Background color */
+    color: #333; /* Text color */
+}
+
+/* Style the container for content */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Container background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+/* Style the headings */
+h1 {
+    color: #4caf50; /* Heading color in pleasant green */
+}
+
+/* Style the paragraphs */
+p {
+    line-height: 1.6;
+}
+
+/* Style the button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Button background color in pleasant green */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hover effect animation */
+}
+
+/* Change button color on hover */
+.button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
