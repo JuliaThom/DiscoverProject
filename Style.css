@@ -1,44 +1,45 @@
-/* Set the font family for the entire page */
+/* Body styles */
 body {
     font-family: "Century Gothic", sans-serif;
-    background-color: #f4f4f4; /* Background color */
-    color: #333; /* Text color */
+    background-color: #222; 
+    color: #fff; /* White Text */
 }
 
-/* Style the container for content */
+/* Container styles */
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px;
-    background-color: #fff; /* Container background color */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow */
+    background-color: #335a4b; /* dark green for Container */
+    border-radius: 10px; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Shadow */
 }
 
-/* Style the headings */
+/* Heading styles */
 h1 {
-    color: #4caf50; /* Heading color in pleasant green */
+    color: #b88e1a; /* Gold */
 }
 
-/* Style the paragraphs */
+/* Paragraph styles */
 p {
+    color: #ccc; /* light gray Text */
     line-height: 1.6;
 }
 
-/* Style the button */
+/* Button styles */
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4caf50; /* Button background color in pleasant green */
-    color: #fff; /* Button text color */
+    background-color: #b88e1a; /* Darkgreen Button */
+    color: #fff; /* White Text */
     text-decoration: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Hover effect animation */
+    transition: background-color 0.3s ease; /* Hover-Effect */
 }
 
-/* Change button color on hover */
+/* Button hover styles */
 .button:hover {
-    background-color: #388e3c; /* Darker green on hover */
+    background-color: #795c0d; /* darker green Hover */
 }
